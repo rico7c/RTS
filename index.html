@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- <link rel="stylesheet" type="text/css" href="RTS.css"> -->
+	<label>CREDITS: </label>
+	<input type="integer" id="creditNo" name="creditNo" value="1000">
+
+	<BR>
+
+	<label>UNITES: </label>
+	<input type="integer" id="unitsNo" name="unitsNo" value="1">
+
+
+</head>
+<body>
+	<script language="Javascript" src="javascript/RTS.js" type="text/javascript">
+	</script>
+
+	<TABLE STYLE="border: 1px solid black; text-align:center;">
+		<TR>
+			<TD>
+				<label>Train units:</label>
+			</TD>	
+			<TD>
+				<button ID="BuildUnit;" name="BuildUnit" onclick="build(creditNo,unitsNo );">Build</button>
+			</TD>
+			<TD>
+				<button ID="Mission1;" name="Mission1" onclick="increment(creditNo);">Increment Credits</button>					 
+			</TD>
+		</TR>
+	</TABLE>
+	<TABLE STYLE="border: 1px solid black; text-align:center;">
+		<TR>
+			<br>
+			Select a mission to complete. 
+		</TR>
+		<TR>
+			<TD>
+				<button ID="Mission1;" name="Mission1" onclick="mission(unitsNo, 1);">Mission 1</button>
+			</TD>
+			<TD>
+				<button ID="Mission2;" name="Mission2" disabled="true" onclick="mission(unitsNo, 2)";>Mission 2</button>
+			</TD>
+			<TD>
+				<button ID="Mission3;" name="Mission3" disabled="true" onclick="mission(unitsNo, 3);">Mission 3</button>
+			</TD>
+		</TR>
+	</TABLE>
+
+	<TABLE>
+		<TR>
+			<TD>
+				<textarea readonly name="inputArea" >...mission log</textarea>
+			</TD>
+		</TR>
+	</TABLE>
+</body>

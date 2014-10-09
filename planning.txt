@@ -1,0 +1,102 @@
+Planning: 
+
+users view: 
+			Logs in
+			view of his "Area/Army",
+			can set out to go exporations/mission/task
+			build structures/ units
+			check resources, mine/harvest more
+			trade reources
+			alliance
+			attack/defend
+
+	Area/Army:
+			Positioned in a world (seveal different worlds) on a locations (several locations on world) and on a specific area in that locations ( each loaction to have several area's available) //like ogame galaxy/system/position
+			Limited size of area for structures
+			unlimited number of units
+
+	Explorations/Mission/Tasks:
+			set units off on a mission to return with resources
+			complete tasks to be rewarded with resources/units
+			set units for explorations, new locations, enimies, resources, units can be encounters. 
+
+	Build structures:
+			construct structure to advance game
+			Improve level of scructure to improve efficiancy of structure. 
+			expand tech tree of structure list.
+
+	Resources:
+			structure for mining/harvesting resources
+			build mroe and improve collections\generations
+
+	Trade:
+			Too much of one resources, trade for other
+
+	Alliance:
+			Chat with alliance members.
+			co-op missiong/explorations/tasks
+
+	Attack\defend
+			Sent units off to attack a player to steal reosources
+			fend off attacks with a defense on area
+
+Area/Army:
+
+	Planet:
+			There is not limited to the amount of planets, planets to consist of locations (continent maybe) which host areas (cities maybe).
+	Locations: 
+			Each of the locations will host many areas which a player is given at the start. Players can then use exploration to expand to more areas and even into other locations.
+	Areas:
+			EAch area will have a certain number of spaces in order to build structures on. Once this limit is reach no more structures can be built. 
+
+Explorations: 
+			This is going sending units into the unknown away from the area. From leaving the area can end is meeting hostile/friendly units from elsewhere, finding a free piece of land to expand too or finding resources to carry back.
+
+Mission/Tasks
+			This is when you have a set of goals to achieve which would result in a reward. However failing the these woudl result in a loss of untis and points - more to follow on points. 
+
+Structures:
+	
+	Base structure:
+			This will be the initial starting point. 
+
+	Barraks:
+			This is used to build units e.g. soilders.
+
+	Garage:	
+			This is for building different stronger units e.g. tanks.
+
+	Power station: 
+			This is required to power the base, no power equals no construction. 
+
+	Resource factory:
+			debating weather to have multiple resources or not. Resources will either be mined or havest. Resources are required to build structures and units. (1 for the time being)
+
+	Reseach lab:
+			leveling to expand base, structure and unit availablilities. Possible units and structures strengths and weaponary too. 
+
+	Defense building:
+			Build turrets, machine guns and other structures for defence. 
+
+
+Units:
+	
+	Infantry: 
+			Soilders to train from the barracks. Upgrading units possible by upgrading barracks. Each have hp and ap
+	vehicle:
+			Mobile weaponary to build. Upgrade vehicles by upgrading Vehicle. Each have hp and ap
+
+Resources:
+		harvest resources. Requires resource factory and harvest vehicle. Resources allow more units to be trained, structures to be built and research to be done. Research to be added later. 
+trade
+
+: 
+		To be added later. 
+
+Alliacne:
+
+		To be added later.
+
+Attack/Defend:
+
+	Units to go up against each other. Text based. change on hit, at to minus units hp. 
