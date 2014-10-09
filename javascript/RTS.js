@@ -17,14 +17,17 @@ function build(credits, unites){
 	unitsNo.value = Uts;
 }
 
+function initCredits(){
+	creditNo.value = 0;
+	window.setInterval(function() { increment(); }, 1000);
+}
+
 
 //Increasing credits by 1.
 //will need to be moved into the timer. 
 //
-function increment(cred){
-	var number = cred.value;
-    number ++;
- 	creditNo.value = number;
+function increment(){
+ 	creditNo.value++;
 }
 
 
